@@ -57,16 +57,21 @@ section.jumbotron {
 /* LAYOUT PAGE */
 
 .index-html {
-    >div >div {
-        padding: 22px;
-        background: #e4f5fc; /* Old browsers */
-        background: -moz-linear-gradient(-45deg,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
-        background: -webkit-linear-gradient(-45deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
-        background: -o-linear-gradient(-45deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
-        background: -ms-linear-gradient(-45deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
-        background: linear-gradient(135deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    >div {
+    height: 100vh;
+    border: red 1px solid;
+        >div {
+            max-height: 66px;
+            padding: 22px;
+            background: #e4f5fc; /* Old browsers */
+            background: -moz-linear-gradient(-45deg,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(-45deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(-45deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(-45deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* IE10+ */
+            background: linear-gradient(135deg,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
     }
 }
 
